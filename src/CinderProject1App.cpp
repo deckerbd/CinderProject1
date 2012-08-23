@@ -28,7 +28,7 @@ void CinderProject1App::update()
 void CinderProject1App::draw()
 {
 	// clear out the window with black
-	gl::clear( Color( 255, 0, 0 ) ); 
+	gl::clear( Color( 1.0, 0, 0 ) ); 
 }
 
 CINDER_APP_BASIC( CinderProject1App, RendererGl )
